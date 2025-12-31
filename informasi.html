@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1 class="fw-bold">Selamat Datang di Website Saya</h1>
+        <p class="mt-3">Website sederhana menggunakan HTML & Bootstrap</p>
+    </section>
+
+    <!-- NAVBAR FULL WIDTH -->
+    <nav class="navbar p-0">
+        <div class="navbar-box w-100">
+            <div class="container d-flex justify-content-center">
+                <ul class="navbar-nav flex-row gap-4">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="karya.html">Karya & Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="informasi.html">Informasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <section class="content">
+    <div class="container">
+        <div class="content-box">
+
+            <h2 class="fw-bold text-center mb-1">Informasi</h2>
+            <p class="text-center text-muted mb-4">
+                Referensi Video untuk Belajar Membuat Website
+            </p>
+
+            <div class="row g-4">
+
+                <!-- BERITA 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm info-card"
+                         data-bs-toggle="collapse"
+                         data-bs-target="#info2">
+                        <div class="card-body">
+                            <h5 class="fw-bold">HTML & CSS Full Course for free 🌎</h5>
+                            <p class="text-muted small mb-2">10 Mei 2025</p>
+                            <p class="mb-0">Klik untuk menonton video.</p>
+                        </div>
+                    </div>
+
+                    <div class="collapse mt-2" id="info2">
+                        <div class="card card-body">
+                            <div class="ratio ratio-16x9 mb-3">
+                                <iframe
+                                    src="https://www.youtube.com/embed/HGTJBPNC-Gw?si=ycoYqrfkDbY9clFl"
+                                    title="YouTube video"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <p class="text-muted mb-0">
+                                Penjelasan dasar VS Code khusus pemula cara pakai editor, fitur penting, 
+                                extension yang sering dipakai, cocok buat persiapan bikin HTML di VS Code.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BERITA 2 + YOUTUBE -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm info-card"
+                         data-bs-toggle="collapse"
+                         data-bs-target="#info2">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Tutorial Visual Studio Code (VSCODE) untuk Pemula (1/9)</h5>
+                            <p class="text-muted small mb-2">10 Mei 2025</p>
+                            <p class="mb-0">Klik untuk menonton video.</p>
+                        </div>
+                    </div>
+
+                    <div class="collapse mt-2" id="info2">
+                        <div class="card card-body">
+                            <div class="ratio ratio-16x9 mb-3">
+                                <iframe
+                                    src="https://www.youtube.com/embed/kEG_F8m_8Tk?si=F1KyMVMXPh7wqObF"
+                                    title="YouTube video"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <p class="text-muted mb-0">
+                                Video ini membantu kamu memahami fitur VS Code 
+                                secara umum yang sangat berguna saat ngetik HTML.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BERITA 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm info-card"
+                         data-bs-toggle="collapse"
+                         data-bs-target="#info2">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Tutorial Membuat Website Sederhana dengan HTML dan CSS. Lengkap dan Mudah bagi Pemula</h5>
+                            <p class="text-muted small mb-2">10 Mei 2025</p>
+                            <p class="mb-0">Klik untuk menonton video.</p>
+                        </div>
+                    </div>
+
+                    <div class="collapse mt-2" id="info2">
+                        <div class="card card-body">
+                            <div class="ratio ratio-16x9 mb-3">
+                                <iframe
+                                    src="https://www.youtube.com/embed/5JwWqjd4e9o?si=rCVWDlrVj-qMTAyJ"
+                                    title="YouTube video"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <p class="text-muted mb-0">
+                                Video ini membahas langkah-langkah pembuatan website sederhana 
+                                menggunakan HTML dengan bantuan editor Visual Studio Code.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- FOOTER -->
+<footer class="footer">
+    <div class="container text-center">
+        <p class="mb-1 fw-semibold">© 2025 Zahra Anggraini</p>
+        <p class="mb-0 small">
+            Website dibuat sebagai media pembelajaran Pemrograman Web
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
